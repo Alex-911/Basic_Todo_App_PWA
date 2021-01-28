@@ -1,0 +1,33 @@
+<form
+  [formGroup]="todoForm"
+  class="flex items-center justify-between my-5"
+  (submit)="addTodo()"
+>
+  <div class="flex-grow">
+    <input
+      type="text"
+      formControlName="title"
+      placeholder="Enter New Todo"
+      class="w-full bg-gray-200 text-gray-900 text-sm font-semibold rounded-l-xl focus:outline-none focus:ring-0 focus:ring-offset-0 border-none placeholder-gray-600 shadow-xl h-10"
+    />
+  </div>
+  <button
+    class="bg-gray-200 rounded-r-xl flex items-center justify-center w-10 h-10 focus:outline-none shadow-xl text-green-500 font-black"
+    (click)="addTodo()"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      class="w-10"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+      />
+    </svg>
+  </button>
+</form>

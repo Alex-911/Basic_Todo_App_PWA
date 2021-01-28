@@ -1,0 +1,6 @@
+<div class="flex flex-col items-stretch justify-center space-y-2 p-2">
+  <app-todo
+    *ngFor="let todo of todoService.getTodo() | async"
+    [todo]="todo"
+  ></app-todo>
+</div>

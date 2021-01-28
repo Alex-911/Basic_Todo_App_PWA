@@ -1,0 +1,69 @@
+{
+  "configVersion": 1,
+  "timestamp": 1611847873256,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.bfe42ae1a8daf87ebea5.js",
+        "/manifest.webmanifest.json",
+        "/polyfills.8c151b8375e767ff858f.js",
+        "/runtime.0e49e2b53282f40c8925.js",
+        "/styles.9b0b891dbe54cd226d13.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/checklist.png",
+        "/assets/checklist.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/checklist.png": "1e878d977972e354306f6aa0d1a410f752456dec",
+    "/assets/checklist.svg": "1b65bcbbecdad901b7c65222a604fe8954bb346d",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "95e7fc34c515c541db4920f1ee8e575c52bdcdaa",
+    "/main.bfe42ae1a8daf87ebea5.js": "91e2982482dd7a3040be630c0b43d54977cc4598",
+    "/manifest.webmanifest.json": "80b5d59ee6d1ab6fccd462d0a48730b16edffbee",
+    "/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.9b0b891dbe54cd226d13.css": "cff1d8c281dc76ba6f172a2b73eadd7f961dec3f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
